@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero .navbar {
+  height: 80px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.hero .navbar nav ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+.hero .navbar nav ul a {
+  text-decoration: none;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.521);
+  font-weight: 10px;
+}
+
+.container {
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 10px;
+  gap: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.container .grid .cards {
+  margin-bottom: 30px;
+}
+.container .grid .cards h1 {
+  font-size: 20px;
+  text-align: center;
+  color: rgb(79, 85, 85);
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-right: 12px;
+}
+.container .grid .cards h2 {
+  text-align: center;
+  color: grey;
+  margin-left: 40px;
+}
+.container .grid .cards h3 {
+  color: rgb(28, 221, 28);
+  margin-right: 80px;
+}
+.container .grid .cards .price {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+}
+.container .grid img {
+  height: 320px;
+  width: 240px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+.container .grid button {
+  width: 180px;
+  height: 40px;
+  color: white;
+  background-color: rgb(38, 47, 48);
+  border: none;
+  margin-top: 10px;
+  margin-left: 40px;
+  border-radius: 5px;
+}
+.container .head1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10px;
+}
+.container .head1 a {
+  color: black;
+}
+.container .head1 h2 {
+  font-weight: 100;
+  font-size: 30px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  margin-top: 40px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin: 15px;
+  padding: 10px;
+  background-color: rgb(24, 31, 32);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footer .mini {
+  height: 280px;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.footer .mini h1 {
+  font-size: 25px;
+  color: white;
+  font-weight: 200;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+.footer .mini h5 {
+  font-size: 20px;
+  font-weight: 100;
+  margin-bottom: 15px;
+}
+.footer .mini a {
+  color: white;
+  padding: 10px;
+}
+.footer .quick {
+  justify-content: center;
+  align-items: center;
+  height: 280px;
+  padding: 30px;
+  text-transform: uppercase;
+  color: whitesmoke;
+}
+.footer .quick h1 {
+  color: white;
+  font-size: 25px;
+  font-weight: 200;
+  padding-bottom: 10px;
+}
+.footer .quick ul {
+  list-style: none;
+  padding-bottom: 10px;
+  font-weight: 100;
+  margin-left: 10px;
+}
+.footer .quick ul a {
+  text-decoration: none;
+  color: whitesmoke;
+  margin-bottom: 10px;
+}
+.footer .help {
+  height: 280px;
+  gap: 100px;
+  padding: 30px;
+  text-transform: uppercase;
+  color: whitesmoke;
+}
+.footer .help h1 {
+  color: white;
+  font-size: 25px;
+  font-weight: 200;
+  padding-bottom: 10px;
+}
+.footer .help ul {
+  list-style: none;
+}
+.footer .help ul a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.footer .cont {
+  height: 280px;
+  padding: 25px;
+}
+.footer .cont h1 {
+  color: white;
+  font-size: 25px;
+  font-weight: 200;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+.footer .cont h3 {
+  margin-bottom: 10px;
+}
+.footer .cont a {
+  color: white;
+  margin-bottom: 10px;
+}/*# sourceMappingURL=style1.css.map */
